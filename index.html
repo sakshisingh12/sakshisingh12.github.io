@@ -7,18 +7,8 @@
 	<script type="text/javascript" src="app.js"></script>
 </head>
 <body>
-	<!--Navbar Section-->
-	<nav class="navbar fixed-top navbar-light bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand text-light" href="#">Crypto</a>
-    <form class="d-flex">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-
-<table class = "table table-bordered" >
+	<h1>Crypto Tracker</h1>
+<table class = "table table-bordered" id="table1" style="overflow-x:auto;" >
 	<thead>
 		<tr id="co">
 			<th scope="col">UUID</th>
@@ -30,7 +20,7 @@
 			<th scope="col">Symbol</th>
 		</tr>
 	</thead>
-	<tbody id="data">	
+	<tbody id="data">     	
 	</tbody>
 </table>
 </body>
